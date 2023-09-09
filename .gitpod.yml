@@ -1,5 +1,7 @@
 tasks:
-  - init: pip3 install -r requirements.exe
+  - init: 
+  pip freeze > requirements.txt
+  pip3 install -r requirements.txt
 
 vscode:
   extensions:
