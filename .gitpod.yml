@@ -1,5 +1,5 @@
 tasks:
-  - init: pip3 install
+  - init: pip3 install -r requirement.exe
 
 vscode:
   extensions:
